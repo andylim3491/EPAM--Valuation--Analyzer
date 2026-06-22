@@ -32,7 +32,7 @@ EPAM's operating margin fell from 14.4% to 9.5% over 5 years — a structural tr
 EPAM scores "Safe" (4.43) alongside ACN and CTSH; DXC stands out as financially distressed (1.13) — corroborated by its outlier P/E multiple below.
 
 ### Comps Multiple Distribution
-![Comps Multiples](Comps%20Multiple%20Distribution...png)
+![Comps Multiples](Comps%20Multiple%20Distribution.png)
 
 DXC's P/E of 82.85x is flagged "Not Meaningful" (depressed earnings denominator) and excluded specifically from the P/E median, while still included in EV/EBITDA and EV/Revenue — standard sell-side practice for handling multiple outliers.
 
