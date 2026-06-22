@@ -22,27 +22,27 @@ A Python pipeline that automates the equity research / FP&A valuation workflow: 
 I ran the full pipeline on EPAM (IT services), against comps ACN, CTSH, DXC, and IBM.
 
 ### 5-Year Margin Trends
-![Margin Trends](images/EPAM.png)
+![Margin Trends](EPAM.png)
 
 EPAM's operating margin fell from 14.4% to 9.5% over 5 years — a structural trend that directly informed the DCF's margin assumptions rather than assuming a flat continuation of today's margin.
 
 ### Financial Health: Altman Z-Score
-![Altman Z-Score](images/Altman_Z-Score.png)
+![Altman Z-Score](Altman%20Z-Score.png)
 
 EPAM scores "Safe" (4.43) alongside ACN and CTSH; DXC stands out as financially distressed (1.13) — corroborated by its outlier P/E multiple below.
 
 ### Comps Multiple Distribution
-![Comps Multiples](images/Comps_Multiple_Distribution.png)
+![Comps Multiples](Comps%20Multiple%20Distribution...png)
 
 DXC's P/E of 82.85x is flagged "Not Meaningful" (depressed earnings denominator) and excluded specifically from the P/E median, while still included in EV/EBITDA and EV/Revenue — standard sell-side practice for handling multiple outliers.
 
 ### DCF Sensitivity: WACC × Terminal Growth
-![DCF Sensitivity](images/Heatmap.png)
+![DCF Sensitivity](Heatmap.png)
 
 Enterprise value ranges from $3.7B to $7.9B across plausible WACC/growth combinations — illustrating how sensitive DCF outputs are to discount-rate assumptions.
 
 ### Cross-Validation: DCF vs. Comps
-![Cross-Validation](images/EPAM_Graph.png)
+![Cross-Validation](EPAM%20Graph.png)
 
 DCF ($5.0B) and comps ($3.2B–$5.4B) diverge by 44.9% — the pipeline automatically flags this as wide divergence and recommends revisiting assumptions before finalizing a view, rather than silently presenting a single number.
 
@@ -59,13 +59,7 @@ DCF ($5.0B) and comps ($3.2B–$5.4B) diverge by 44.9% — the pipeline automati
 
 ## Run It Yourself
 
-Open `valuation_analyzer.ipynb` in Google Colab, set `TARGET_TICKER` and `COMPS_TICKERS` in the config cell, and run all cells. No paid API keys required.
-
-## Sample Output
-
-See [`EPAM_valuation_report.md`](EPAM_valuation_report.md) for the full auto-generated report.
-
-Open `valuation_analyzer.ipynb` in Google Colab, set `TARGET_TICKER` and `COMPS_TICKERS` in the config cell, and run all cells. No paid API keys required.
+Open `Finance_Project.ipynb` in Google Colab, set `TARGET_TICKER` and `COMPS_TICKERS` in the config cell, and run all cells. No paid API keys required.
 
 ## Sample Output
 
